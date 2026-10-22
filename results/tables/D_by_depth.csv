@@ -1,0 +1,25 @@
+model,metric,arm,early (ND<0.33),mid (0.33≤ND<0.67),late (ND≥0.67)
+pythia-2.8b,PR,refinement,-3.7030,-3.6055,-3.1773
+pythia-2.8b,PR,control,-2.4515,-2.4195,-1.8774
+pythia-2.8b,PR,DiD,-1.2515,-1.1860,-1.3000
+pythia-2.8b,log-vol,refinement,-8.3893,-10.3994,-10.4491
+pythia-2.8b,log-vol,control,-5.9122,-8.4691,-9.1502
+pythia-2.8b,log-vol,DiD,-2.4771,-1.9303,-1.2989
+llama3.2-3b,PR,refinement,-3.5802,-3.6359,-3.0501
+llama3.2-3b,PR,control,-2.0236,-2.2267,-1.7831
+llama3.2-3b,PR,DiD,-1.5565,-1.4091,-1.2670
+llama3.2-3b,log-vol,refinement,-7.7967,-7.0487,-8.4784
+llama3.2-3b,log-vol,control,-3.3596,-3.8057,-5.2136
+llama3.2-3b,log-vol,DiD,-4.4370,-3.2430,-3.2648
+qwen2.5-3b,PR,refinement,-3.4281,-3.7146,-3.0486
+qwen2.5-3b,PR,control,-2.2626,-2.4961,-1.9316
+qwen2.5-3b,PR,DiD,-1.1655,-1.2185,-1.1171
+qwen2.5-3b,log-vol,refinement,-11.8617,-10.8233,-11.0109
+qwen2.5-3b,log-vol,control,-8.3678,-8.1606,-9.8636
+qwen2.5-3b,log-vol,DiD,-3.4938,-2.6628,-1.1473
+gemma4-e4b,PR,refinement,-0.1898,0.0000,0.0000
+gemma4-e4b,PR,control,-0.0444,0.0000,0.0000
+gemma4-e4b,PR,DiD,-0.1454,0.0000,0.0000
+gemma4-e4b,log-vol,refinement,-1.2469,0.0000,0.0000
+gemma4-e4b,log-vol,control,-0.4577,0.0000,0.0000
+gemma4-e4b,log-vol,DiD,-0.7892,0.0000,0.0000

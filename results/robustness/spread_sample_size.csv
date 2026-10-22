@@ -1,0 +1,5 @@
+question,answer,detail
+Q3a_sample_size,16,"240 groups, uniform=True"
+Q3b_truncation_rank_effective,none applied (array shorter than rank=128 default),log_volume(rank=128) numerically identical to natural-length call: True
+Q3b_PR_truncation_rank,none (full spectrum always),participation_ratio() signature has no rank parameter
+Q3b_second_order_centering_artifact,"present, approximately cancels in reported contrasts","last eigenvalue ratio max=1.12e-31 (structural, from centering n=16); S0->S4 refinement-control contrast with vs without this eigenvalue: -2.5928 vs -2.4593 (5.1% relative difference, not exactly zero)"

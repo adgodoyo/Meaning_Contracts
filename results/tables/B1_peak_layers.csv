@@ -1,0 +1,17 @@
+model,arm,peak_layer,peak_nd,gap_at_peak
+pythia-2.8b,refinement,4,0.1250,-0.1202
+pythia-2.8b,commonality,27,0.8438,1.4219
+pythia-2.8b,adv_near_synonym,26,0.8125,0.2432
+pythia-2.8b,adv_scope_hedge,30,0.9375,0.5642
+llama3.2-3b,refinement,3,0.1071,-0.0374
+llama3.2-3b,commonality,0,0.0000,0.9292
+llama3.2-3b,adv_near_synonym,3,0.1071,-0.0427
+llama3.2-3b,adv_scope_hedge,3,0.1071,-0.0282
+qwen2.5-3b,refinement,4,0.1111,-0.0831
+qwen2.5-3b,commonality,0,0.0000,1.0371
+qwen2.5-3b,adv_near_synonym,0,0.0000,0.7398
+qwen2.5-3b,adv_scope_hedge,0,0.0000,0.6499
+gemma4-e4b,refinement,9,0.2143,-0.1535
+gemma4-e4b,commonality,7,0.1667,0.3357
+gemma4-e4b,adv_near_synonym,15,0.3571,0.7128
+gemma4-e4b,adv_scope_hedge,10,0.2381,0.6287

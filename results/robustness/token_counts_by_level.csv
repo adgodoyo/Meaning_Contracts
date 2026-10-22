@@ -1,0 +1,17 @@
+arm,model,S0,S1,S2,S3,S4,growth_S0_S4
+Refinement,pythia-2.8b,10.5,10.6,10.8,10.9,11.1,0.7
+Control,pythia-2.8b,11.5,11.5,11.7,11.8,11.9,0.5
+Near-synonym,pythia-2.8b,11.4,11.5,11.5,11.7,12.2,0.8
+Scope-hedge,pythia-2.8b,10.9,11.0,11.0,11.2,11.2,0.3
+Refinement,llama3.2-3b,11.4,11.4,11.5,11.5,11.8,0.4
+Control,llama3.2-3b,12.3,12.4,12.5,12.6,12.7,0.4
+Near-synonym,llama3.2-3b,12.3,12.4,12.3,12.3,12.6,0.3
+Scope-hedge,llama3.2-3b,11.9,11.9,12.0,12.1,12.1,0.3
+Refinement,qwen2.5-3b,10.4,10.4,10.5,10.5,10.8,0.4
+Control,qwen2.5-3b,11.3,11.4,11.5,11.6,11.7,0.4
+Near-synonym,qwen2.5-3b,11.3,11.4,11.3,11.3,11.6,0.3
+Scope-hedge,qwen2.5-3b,10.9,10.9,11.0,11.1,11.1,0.3
+Refinement,gemma4-e4b,11.4,11.4,11.4,11.5,11.6,0.3
+Control,gemma4-e4b,12.3,12.3,12.4,12.4,12.5,0.2
+Near-synonym,gemma4-e4b,12.2,12.3,12.3,12.3,12.5,0.3
+Scope-hedge,gemma4-e4b,11.9,11.9,12.0,12.1,12.1,0.3

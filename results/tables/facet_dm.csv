@@ -1,0 +1,9 @@
+model,pooling,exact_dm,same_facet_dm,cross_facet_dm,ratio
+pythia-2.8b,mean,11.83,15.3,17.17,1.12
+llama3.2-3b,mean,10.0,13.19,17.36,1.32
+qwen2.5-3b,mean,11.17,13.42,16.87,1.26
+gemma4-e4b,mean,10.31,12.8,17.34,1.35
+pythia-2.8b,last,16.87,24.3,24.65,1.01
+llama3.2-3b,last,17.53,20.54,23.83,1.16
+qwen2.5-3b,last,18.24,20.24,23.43,1.16
+gemma4-e4b,last,18.38,19.35,23.38,1.21

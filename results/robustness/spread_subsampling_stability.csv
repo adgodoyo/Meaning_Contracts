@@ -1,0 +1,9 @@
+model,arm,layer,gap_n16_full,gap_n12_subsampled,same_sign
+pythia-2.8b,refinement,9,-8.5020,-5.9228,True
+pythia-2.8b,commonality,9,-6.5203,-4.6818,True
+llama3.2-3b,refinement,10,-8.2274,-5.7777,True
+llama3.2-3b,commonality,10,-6.4353,-4.5191,True
+qwen2.5-3b,refinement,21,-7.1607,-4.9118,True
+qwen2.5-3b,commonality,21,-5.1530,-3.6237,True
+gemma4-e4b,refinement,20,-8.4133,-6.0306,True
+gemma4-e4b,commonality,20,-5.8547,-4.2503,True

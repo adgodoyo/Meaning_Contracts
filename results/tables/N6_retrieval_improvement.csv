@@ -1,0 +1,5 @@
+model,k_min,peak_layer,raw_r1_at_peak,deflated_r1_at_peak,improvement_pct,raw_r1_at_nd05,deflated_r1_at_nd05,resid_r1_at_nd05
+pythia-2.8b,8,14,0.1775,0.4100,23.25,0.1750,0.4012,0.1850
+llama3.2-3b,5,4,0.3100,0.7600,45.00,0.2250,0.6075,0.2938
+qwen2.5-3b,5,12,0.3550,0.8100,45.50,0.3463,0.7262,0.3837
+gemma4-e4b,5,6,0.5837,0.8700,28.62,0.2200,0.3300,0.3137

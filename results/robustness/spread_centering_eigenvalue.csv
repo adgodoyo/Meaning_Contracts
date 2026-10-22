@@ -1,0 +1,5 @@
+model,layer,n_per_cloud,n_chains_per_arm,contrast_paper_sign_with_nearzero_eig,contrast_paper_sign_without_nearzero_eig,abs_shift,relative_shift_pct,sign_preserved
+pythia-2.8b,16,16,20,2.1540,2.0003,0.1537,7.14,True
+llama3.2-3b,14,16,20,1.8914,1.9064,0.0150,0.79,True
+qwen2.5-3b,18,16,20,1.7615,2.0372,0.2758,15.65,True
+gemma4-e4b,21,16,20,2.6578,2.5578,0.0999,3.76,True

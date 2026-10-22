@@ -1,0 +1,5 @@
+model,refinement_gap,refinement_ci95,refinement_n,refinement_peak_layer,commonality_gap,commonality_ci95,commonality_n,commonality_peak_layer,adv_near_synonym_gap,adv_near_synonym_ci95,adv_near_synonym_n,adv_near_synonym_peak_layer,adv_scope_hedge_gap,adv_scope_hedge_ci95,adv_scope_hedge_n,adv_scope_hedge_peak_layer
+pythia-2.8b,-0.1202,0.1854,20,4,1.4219,0.4965,20,27,0.2432,1.5038,4,26,0.5642,1.0394,4,30
+llama3.2-3b,-0.0374,0.0059,20,3,0.9292,0.4113,20,0,-0.0427,0.0074,4,3,-0.0282,0.0017,4,3
+qwen2.5-3b,-0.0831,0.0243,20,4,1.0371,0.3932,20,0,0.7398,0.7085,4,0,0.6499,1.2702,4,0
+gemma4-e4b,-0.1535,0.2189,20,9,0.3357,0.3048,20,7,0.7128,0.5474,4,15,0.6287,0.1079,4,10

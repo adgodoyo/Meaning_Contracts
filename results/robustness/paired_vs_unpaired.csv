@@ -1,0 +1,17 @@
+model,set,n_chains,mean_displacement,mean_logvol_gap
+pythia-2.8b,unpaired_all_refinement,20,22.8872,-8.9247
+pythia-2.8b,unpaired_all_commonality,20,19.3226,-6.6712
+pythia-2.8b,paired7_refinement,7,25.0025,-8.586
+pythia-2.8b,paired7_commonality,7,18.1523,-6.2282
+llama3.2-3b,unpaired_all_refinement,20,5.5048,-8.1087
+llama3.2-3b,unpaired_all_commonality,20,4.7608,-6.2928
+llama3.2-3b,paired7_refinement,7,6.3699,-8.0286
+llama3.2-3b,paired7_commonality,7,4.3459,-6.2779
+qwen2.5-3b,unpaired_all_refinement,20,30.7993,-7.4363
+qwen2.5-3b,unpaired_all_commonality,20,25.9653,-5.5912
+qwen2.5-3b,paired7_refinement,7,37.3838,-7.3081
+qwen2.5-3b,paired7_commonality,7,23.2674,-5.6003
+gemma4-e4b,unpaired_all_refinement,20,19.461,-8.5479
+gemma4-e4b,unpaired_all_commonality,20,16.7441,-5.9417
+gemma4-e4b,paired7_refinement,7,19.3179,-8.0946
+gemma4-e4b,paired7_commonality,7,16.079,-6.0281

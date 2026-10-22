@@ -1,0 +1,36 @@
+section,quantity,value,detail
+A,sentences with an explicit narrowing cue,243/3840,6.3%
+A,sentences ending in a dangling function word,82/3840,2.1%
+A,sentences removed by either filter,314/3840,8.2%
+A,template families containing cue sentences,yes,{'T2': 243}
+A,cue sentences per level S0..S4,"46, 52, 51, 54, 40",spread evenly over levels
+A,dangling-word sentences per level S0..S4,"0, 0, 7, 40, 35",concentrated at the longer levels S3-S4
+A,share of refinement sentences removed,9.9%,159/1600
+A,share of commonality sentences removed,6.4%,103/1600
+A,"(chain, level) cells left with fewer than 16 sentences",218/240,min surviving n = 12
+A,filtered sentences in template family T1,0 defects,"960 sentences, 4 per cell"
+B,Figure 5 claims [FULL16] log-volume,98.3% / 100.0% / 100.0%,refine<control / level-ordered / S4<0
+B,Figure 5 claims [QC] log-volume,66.4% / 51.7% / 100.0%,refine<control / level-ordered / S4<0
+B,Figure 5 claims [QC12] log-volume,96.6% / 100.0% / 100.0%,refine<control / level-ordered / S4<0
+B,Figure 5 claims [RAND12] log-volume,98.3% / 100.0% / 100.0%,refine<control / level-ordered / S4<0
+B,"refinement below control: full -> filtered, unmatched n",98% -> 66%,drop caused by unequal n across cells
+B,"refinement below control: filtered, matched n=12",97%,QC12
+B,"refinement below control: unfiltered, random n=12",98%,RAND12
+B,monotone ordering by level: QC12 (FULL16),100% (100%),
+B,S4 contraction: QC12 (FULL16),100% (100%),
+C,log-volume pythia-2.8b,-1.81 -> -1.99,"sign 97%, in band True"
+C,log-volume llama3.2-3b,-1.60 -> -1.63,"sign 97%, in band True"
+C,log-volume qwen2.5-3b,-1.45 -> -1.43,"sign 97%, in band True"
+C,log-volume gemma4-e4b,-1.66 -> -1.73,"sign 100%, in band True"
+C,log-volume: sign agreement range,97-100%,all inside matched-n band: True
+C,displacement pythia-2.8b,+1.71 -> +1.60,"sign 100%, in band True"
+C,displacement llama3.2-3b,+0.45 -> +0.41,"sign 100%, in band True"
+C,displacement qwen2.5-3b,+2.73 -> +2.76,"sign 100%, in band True"
+C,displacement gemma4-e4b,+1.94 -> +2.04,"sign 100%, in band True"
+C,displacement: sign agreement range,100-100%,all inside matched-n band: True
+C,"displacement gap, template family T1 only","+1.38, +0.34, +2.26, +2.06",zero-defect subset
+C,participation ratio pythia-2.8b,-0.47 -> -0.30,"sign 79%, in band True"
+C,participation ratio llama3.2-3b,-1.22 -> -0.79,"sign 100%, in band True"
+C,participation ratio qwen2.5-3b,-0.37 -> -0.30,"sign 95%, in band True"
+C,participation ratio gemma4-e4b,-0.31 -> -0.16,"sign 77%, in band True"
+C,participation ratio: sign agreement range,77-100%,all inside matched-n band: True

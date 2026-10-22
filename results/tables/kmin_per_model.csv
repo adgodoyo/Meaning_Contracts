@@ -1,0 +1,5 @@
+model,k_min,k_min_last
+pythia-2.8b,8,10
+llama3.2-3b,5,4
+qwen2.5-3b,5,4
+gemma4-e4b,5,4

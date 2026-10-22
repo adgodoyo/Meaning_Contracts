@@ -1,0 +1,13 @@
+# Analysis. Environment in which the released outputs were re-checked on
+# 2026-10-21 (Python 3.12); see "Verification" in README.md for which scripts.
+numpy==2.5.0
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.8
+
+# Hidden-state extraction and tokenisation (extraction/, analysis/02).
+# Versions used at extraction time (April 2026) were not recorded; Gemma 4
+# requires a recent transformers release. These are the versions installed
+# when the analysis was verified.
+torch==2.12.1
+transformers==5.5.4

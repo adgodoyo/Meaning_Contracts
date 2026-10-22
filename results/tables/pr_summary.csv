@@ -1,0 +1,9 @@
+model,pooling,mean_gap,auc,positive_frac,negative_frac,strict_pos_frac,strict_neg_frac
+pythia-2.8b,mean,-0.7,-23.25,55,45,42,33
+llama3.2-3b,mean,-0.26,-7.61,66,34,0,21
+qwen2.5-3b,mean,-0.37,-13.56,0,100,0,22
+gemma4-e4b,mean,-0.68,-29.38,0,100,0,67
+pythia-2.8b,last,-0.08,-2.72,61,36,0,15
+llama3.2-3b,last,-2.63,-76.13,0,97,0,97
+qwen2.5-3b,last,-2.0,-73.95,0,97,0,89
+gemma4-e4b,last,-1.61,-69.18,2,95,0,70
